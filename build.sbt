@@ -6,7 +6,7 @@ name    := "FlinkExample"
 version := "1.0"
 
 // https://mvnrepository.com/artifact/org.apache.flink/flink-streaming-java
-libraryDependencies += "org.apache.flink" % "flink-streaming-java" % "1.19.0" % "compile->compile;test->test"
+libraryDependencies += "org.apache.flink" % "flink-streaming-java" % "1.19.1" % "compile->compile;test->test"
 
 // Include only src/main/java in the compile configuration
 Compile / unmanagedSourceDirectories := (Compile / javaSource).value :: Nil
